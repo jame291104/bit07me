@@ -46,7 +46,6 @@ img{
 .container{
     width: 100%;
     max-width: 1800px;
-    height: 430px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
