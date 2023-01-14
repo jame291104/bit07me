@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(236, 236, 236);
+    background-color: #ffffff;
+     margin: 0;
+     padding: 0;
 }
 
-figure{
+.encabezado{
     text-align: center;
+    background: linear-gradient(90deg, rgba(73,87,153,1) 0%, rgba(128,170,164,0.7455357142857143) 65%, rgba(57,196,159,0.8799894957983193) 100%, rgba(179,165,44,1) 100%);
 }
 
 img{
@@ -12,11 +15,163 @@ img{
 }
 
 .image{
-    width: 200px;
-    border-radius: 10px;
+    padding-top: 10px;
+    width: 400px;
+    border-radius: 200px;
 }
 .name{
-    color: rgb(0, 201, 167);
-    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subtitulo{
+    color: #191e38;
     font-size: 30px;
 }
+
+.lenguajes{
+    color: #191e38;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.welcome{
+    color: #191e38;
+    font-size: 60px;
+    text-align: center;
+    padding: 50px 20px 100px 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1800px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto
+}
+
+/*Carta 1*/
+.container .card-1{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-1:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-1 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+
+.container .card-1 p{
+    color: #191e38;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+/*Carta 2*/
+.container .card-2{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-2:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-2 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+.container .card-2 p{
+    color: #191e38;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 25px;
+}
+.container .card-2 a{
+    color: #191e38;
+}
+
+/*Carta 3*/
+.container .card-3{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-3 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+
+.container .card-3 p{
+    color: #191e38;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 25px;
+
+}
+
+/*Carta 4*/
+.container .card-4{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-4:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-4 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+.container .card-4 p{
+    color: #191e38;
+    font-size: 25px;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
