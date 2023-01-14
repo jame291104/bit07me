@@ -174,4 +174,83 @@ img{
     padding-top: 20px;
     line-height: 25px;
 }
+/*Carta 5*/
+.container .card-5{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-5:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-5 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+.container .card-5 h3{
+    color: #191e38;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .card-5 p{
+    color: #191e38;
+    font-size: 15px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 15px;
+}
+/*Carta 6*/
+.container .card-6{
+    width: 330px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #b8e4ff;
+}
+
+.container .card-6:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.container .card-6 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+
+.container .card-6 p{
+    color: #191e38;
+    font-size: 25px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+/*footer*/
+
+.end{
+    background-color: #191e38;
+    margin: 0;
+    padding: 0;
+}
+
+.end .contacto .endImage{
+    padding-top: 10px;
+    width: 100px;
+    border-radius: 50px;
+}
 
