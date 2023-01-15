@@ -1,7 +1,10 @@
+
 body{
-    background-color: #ffffff;
+    background-color: #191e38;
      margin: 0;
      padding: 0;
+     font-family: 'Arimo', sans-serif;
+    
 }
 
 .encabezado{
@@ -37,7 +40,7 @@ img{
 }
 
 .welcome{
-    color: #191e38;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: center;
     padding: 50px 20px 100px 20px;
@@ -242,14 +245,74 @@ img{
 /*footer*/
 
 .end{
-    background-color: #191e38;
+    background: linear-gradient(90deg, rgba(73,87,153,1) 0%, rgba(128,170,164,0.7455357142857143) 65%, rgba(57,196,159,0.8799894957983193) 100%, rgba(179,165,44,1) 100%);
     margin: 0;
     padding: 0;
+    text-align: center;
+    height: 300px;
 }
 
 .end .contacto .endImage{
-    padding-top: 10px;
+    margin: 10px;
     width: 100px;
     border-radius: 50px;
+    align-items: flex-start;
+    justify-items: center;
+}
+.end .contacto .contactame{
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px;
 }
 
+ul {
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+  
+li {
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+}
+
+.end ul .linkedin{
+    width: 50px;
+    height: 50px;
+}
+
+.end ul .gitHub{
+    width: 55px;
+    height: 55px;
+}
+
+.end ul .whatsapp{
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 600px){
+    .image{
+        padding-top: 10px;
+        width: 200px;
+        border-radius: 100px; 
+    }
+    .name{
+        font-size: 30px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    .lenguajes{
+        font-size: 15px;
+    }
+    .welcome{
+        font-size: 40px;
+    }
+    .end .contacto .contactame{
+        font-size: 30px;
+    }
+}
