@@ -1,10 +1,9 @@
 
 body{
-    background-color: #191e38;
+    background-color: #161c1f;
      margin: 0;
      padding: 0;
      font-family: 'Arimo', sans-serif;
-    
 }
 
 .encabezado{
@@ -40,32 +39,35 @@ img{
 }
 
 .welcome{
-    color: rgb(255, 255, 255);
+    color: #8efff6;
     font-size: 60px;
     text-align: center;
-    padding: 50px 20px 100px 20px;
+    padding: 50px 20px 70px 20px;
 }
 
 .container{
+    background-image: url(https://geek.justjoin.it/wp-content/uploads/2021/08/juanjo-jaramillo-mZnx9429i94-unsplash-1-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     max-width: 1800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: auto
+    margin: auto;
 }
 
 /*Carta 1*/
 .container .card-1{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-1:hover{
@@ -80,22 +82,22 @@ img{
 
 .container .card-1 p{
     color: #191e38;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 15px;
     line-height: 25px;
 }
 
 /*Carta 2*/
 .container .card-2{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-2:hover{
@@ -109,25 +111,23 @@ img{
 }
 .container .card-2 p{
     color: #191e38;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 15px;
     line-height: 25px;
 }
-.container .card-2 a{
-    color: #191e38;
-}
+
 
 /*Carta 3*/
 .container .card-3{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-3:hover{
@@ -142,8 +142,8 @@ img{
 
 .container .card-3 p{
     color: #191e38;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 15px;
     line-height: 25px;
 
 }
@@ -151,14 +151,14 @@ img{
 /*Carta 4*/
 .container .card-4{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-4:hover{
@@ -172,21 +172,21 @@ img{
 }
 .container .card-4 p{
     color: #191e38;
-    font-size: 25px;
+    font-size: 15px;
     padding-top: 20px;
     line-height: 25px;
 }
 /*Carta 5*/
 .container .card-5{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-5:hover{
@@ -215,14 +215,14 @@ img{
 /*Carta 6*/
 .container .card-6{
     width: 330px;
-    height: 330px;
+    height: 400px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #b8e4ff;
+    background-color: #8efff6;
 }
 
 .container .card-6:hover{
@@ -237,9 +237,12 @@ img{
 
 .container .card-6 p{
     color: #191e38;
-    font-size: 25px;
+    font-size: 15px;
     padding: 5px;
     line-height: 25px;
+}
+.container .card-6 a{
+    text-decoration: none;
 }
 
 /*footer*/
@@ -263,13 +266,6 @@ img{
     margin: 10px;
     text-align: center;
     font-size: 50px;
-    padding: 5px;
-}
-
-.end .contacto h3{
-    margin: 10px;
-    text-align: center;
-    font-size: 30px;
     padding: 5px;
 }
 
