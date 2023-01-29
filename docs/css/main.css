@@ -1,54 +1,139 @@
 
 body{
-    background-color: #161c1f;
+    background-color: #242424;
      margin: 0;
      padding: 0;
      font-family: 'Arimo', sans-serif;
 }
 
-.encabezado{
-    text-align: center;
-    background: linear-gradient(90deg, rgba(73,87,153,1) 0%, rgba(128,170,164,0.7455357142857143) 65%, rgba(57,196,159,0.8799894957983193) 100%, rgba(179,165,44,1) 100%);
+/*Header*/
+.encabezado {
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 15px 10%;
+    padding-bottom: 0px;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+.encabezado .logo{
+    cursor: pointer;
+    margin-right: auto;
 }
 
-.image{
-    padding-top: 10px;
-    width: 400px;
-    border-radius: 200px;
-}
-.name{
-    color: rgb(255, 255, 255);
-    font-size: 50px;
-    font-weight: bold;
+.encabezado .logo img{
+    height: 70px;
+    width: auto;
+    border-radius: 50%;
+    transition: all 0.4s;;
 }
 
-.subtitulo{
-    color: #191e38;
-    font-size: 30px;
+.encabezado .logo img:hover{
+    transform: scale(1.2);
 }
 
-.lenguajes{
-    color: #191e38;
+.encabezado nav .links{
+    list-style: none;
+}
+
+.encabezado nav .links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.5s;
+}
+.encabezado nav .links li:hover{
+    transform: scale(1.1);
+}
+
+.encabezado nav .links li a{
+    text-decoration: none;
     font-size: 20px;
-    padding-bottom: 20px;
+    color: #F39C12;
+}
+.encabezado nav .links li a:hover{
+    color: #f5f5f5;
 }
 
-.welcome{
-    color: #8efff6;
-    font-size: 60px;
-    text-align: center;
-    padding: 50px 20px 70px 20px;
-}
-
+/*contenido Principal*/
 .container{
-    background-image: url(https://geek.justjoin.it/wp-content/uploads/2021/08/juanjo-jaramillo-mZnx9429i94-unsplash-1-1.jpg);
+    height: auto;
+    width: 100%;
+}
+.container .image_welcome{
+    height: 680px;
+    width: 100%;
+    background-image: url(../img/me.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.container .image_welcome .welcome{
+    height: 400px;
+    width: 400px;
+    padding-top: 200px;
+    padding-left: 200px;
+    justify-items: center;
+}
+
+.container .image_welcome .welcome h3{
+    color: #c8c8c8;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.container .image_welcome .welcome h1{
+    color: #F39C12;
+    font-size: 60px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.container .image_welcome .welcome h2{
+    color: #c8c8c8;
+    font-size: 25px;
+}
+
+.container .section2{
+width: 70%;
+height: auto;
+max-width: 1200px;
+margin: auto;
+padding: 60px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.container .section2 img{
+    width: 250px;
+    float: left;
+    margin-right: 78px;
+    margin-bottom: 20px;
+    border: 6px solid #F39C12;
+    background-color: #ffffff;
+}
+
+.container .section2 h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #F39C12;
+}
+
+.container .section2 p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    color: #c8c8c8;
+}
+
+.container .section2 a{
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #F39C12;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.section3{
     width: 100%;
     max-width: 1800px;
     display: flex;
@@ -57,8 +142,9 @@ img{
     margin: auto;
 }
 
-/*Carta 1*/
-.container .card-1{
+/*carta 1*/
+
+.section3 .card-1{
     width: 330px;
     height: 400px;
     border-radius: 8px;
@@ -70,25 +156,25 @@ img{
     background-color: #8efff6;
 }
 
-.container .card-1:hover{
+.section3 .card-1:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-.container .card-1 h2{
+.section3 .card-1 h2{
     color: #191e38;
     font-weight: bold;
 
 }
 
-.container .card-1 p{
+.section3 .card-1 p{
     color: #191e38;
     font-size: 15px;
     padding: 15px;
     line-height: 25px;
 }
 
-/*Carta 2*/
-.container .card-2{
+/*carta 2*/
+.section3 .card-2{
     width: 330px;
     height: 400px;
     border-radius: 8px;
@@ -100,16 +186,48 @@ img{
     background-color: #8efff6;
 }
 
-.container .card-2:hover{
+.section3 .card-2:hover{
     transform: translateY(-15px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-.container .card-2 h2{
+.section3 .card-2 h2{
     color: #191e38;
     font-weight: bold;
 
 }
-.container .card-2 p{
+
+.section3 .card-2 p{
+    color: #191e38;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+/*carta 3*/
+
+.section3 .card-3{
+    width: 330px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: #8efff6;
+}
+
+.section3 .card-3:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-3 h2{
+    color: #191e38;
+    font-weight: bold;
+
+}
+
+.section3 .card-3 p{
     color: #191e38;
     font-size: 15px;
     padding: 15px;
@@ -117,133 +235,6 @@ img{
 }
 
 
-/*Carta 3*/
-.container .card-3{
-    width: 330px;
-    height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    background-color: #8efff6;
-}
-
-.container .card-3:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container .card-3 h2{
-    color: #191e38;
-    font-weight: bold;
-
-}
-
-.container .card-3 p{
-    color: #191e38;
-    font-size: 15px;
-    padding: 15px;
-    line-height: 25px;
-
-}
-
-/*Carta 4*/
-.container .card-4{
-    width: 330px;
-    height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    background-color: #8efff6;
-}
-
-.container .card-4:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container .card-4 h2{
-    color: #191e38;
-    font-weight: bold;
-
-}
-.container .card-4 p{
-    color: #191e38;
-    font-size: 15px;
-    padding-top: 20px;
-    line-height: 25px;
-}
-/*Carta 5*/
-.container .card-5{
-    width: 330px;
-    height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    background-color: #8efff6;
-}
-
-.container .card-5:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container .card-5 h2{
-    color: #191e38;
-    font-weight: bold;
-
-}
-.container .card-5 h3{
-    color: #191e38;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.container .card-5 p{
-    color: #191e38;
-    font-size: 15px;
-    padding-top: 1px;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 15px;
-}
-/*Carta 6*/
-.container .card-6{
-    width: 330px;
-    height: 400px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-    background-color: #8efff6;
-}
-
-.container .card-6:hover{
-    transform: translateY(-15px);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container .card-6 h2{
-    color: #191e38;
-    font-weight: bold;
-
-}
-
-.container .card-6 p{
-    color: #191e38;
-    font-size: 15px;
-    padding: 5px;
-    line-height: 25px;
-}
-.container .card-6 a{
-    text-decoration: none;
-}
 
 /*footer*/
 
@@ -302,20 +293,6 @@ li {
         padding-top: 10px;
         width: 200px;
         border-radius: 100px; 
-    }
-    .name{
-        font-size: 30px;
-    }
-    .subtitulo{
-        font-size: 20px;
-    }
-    .lenguajes{
-        font-size: 15px;
-    }
-    .welcome{
-        font-size: 40px;
-    }
-    .end .contacto .contactame{
-        font-size: 30px;
-    }
+    
+}
 }
