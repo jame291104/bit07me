@@ -89,6 +89,7 @@ body{
 .container .image_welcome .welcome h2{
     color: #c8c8c8;
     font-size: 25px;
+    font-weight: bold;
 }
 
 .container .section2{
@@ -145,15 +146,17 @@ margin-bottom: 100px;
 /*carta 1*/
 
 .section3 .card-1{
-    width: 330px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     transition: all 0.25s;
-    background-color: #8efff6;
+    background-image: linear-gradient(0deg, rgba(0, 85, 255, 0.706), rgba(0, 144, 254, 0.678), rgba(3, 121, 255, 0.695)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section3 .card-1:hover{
@@ -161,29 +164,36 @@ margin-bottom: 100px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 .section3 .card-1 h2{
-    color: #191e38;
+    color: #ffffff;
     font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
 
 }
 
 .section3 .card-1 p{
-    color: #191e38;
+    color: #ffffff;
     font-size: 15px;
-    padding: 15px;
+    padding-top: 10px;
     line-height: 25px;
+    padding-left: 50px;
 }
 
 /*carta 2*/
 .section3 .card-2{
-    width: 330px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     transition: all 0.25s;
-    background-color: #8efff6;
+    background-image: linear-gradient(0deg, rgba(255, 149, 0, 0.832), rgba(254, 148, 0, 0.815), rgba(255, 150, 3, 0.815)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section3 .card-2:hover{
@@ -191,30 +201,36 @@ margin-bottom: 100px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 .section3 .card-2 h2{
-    color: #191e38;
+    color: #ffffff;
     font-weight: bold;
-
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .section3 .card-2 p{
-    color: #191e38;
+    color: #ffffff;
     font-size: 15px;
-    padding: 15px;
+    padding-top: 10px;
     line-height: 25px;
+    padding-left: 50px;
 }
 
 /*carta 3*/
 
 .section3 .card-3{
-    width: 330px;
-    height: 400px;
+    width:500px;
+    height: 300px;
     border-radius: 8px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
     text-align: center;
     transition: all 0.25s;
-    background-color: #8efff6;
+    background-image: linear-gradient(0deg, rgba(255, 0, 230, 0.706), rgba(254, 0, 246, 0.678), rgba(255, 3, 247, 0.695)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .section3 .card-3:hover{
@@ -222,13 +238,46 @@ margin-bottom: 100px;
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 .section3 .card-3 h2{
-    color: #191e38;
+    color: #ffffff;
     font-weight: bold;
 
 }
 
 .section3 .card-3 p{
-    color: #191e38;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px;
+    line-height: 25px;
+}
+
+/*carta 4*/
+
+.section3 .card-4{
+    width:500px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-image: linear-gradient(0deg, rgba(0, 255, 21, 0.706), rgba(0, 254, 30, 0.678), rgba(3, 255, 16, 0.695)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3 .card-4:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.section3 .card-4 h2{
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.section3 .card-4 p{
+    color: #ffffff;
     font-size: 15px;
     padding: 15px;
     line-height: 25px;
