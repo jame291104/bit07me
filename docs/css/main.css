@@ -114,7 +114,7 @@ margin-bottom: 100px;
 .container .section2 h2{
     font-size: 40px;
     font-weight: 400;
-    color: #F39C12;
+    color: #ffffff;
 }
 
 .container .section2 p{
@@ -132,6 +132,13 @@ margin-bottom: 100px;
     border-radius: 5px;
     text-decoration: none;
     padding: 2px;
+}
+
+.knowledge{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
 }
 
 .section3{
@@ -179,6 +186,15 @@ margin-bottom: 100px;
     padding-top: 10px;
     line-height: 25px;
     padding-left: 50px;
+    padding-right: 50px;
+}
+.section3 .card-1 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
 }
 
 /*carta 2*/
@@ -191,7 +207,7 @@ margin-bottom: 100px;
     margin: 20px;
     text-align: start;
     transition: all 0.25s;
-    background-image: linear-gradient(0deg, rgba(255, 149, 0, 0.832), rgba(254, 148, 0, 0.815), rgba(255, 150, 3, 0.815)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-image: linear-gradient(0deg, rgba(255, 149, 0, 0.753), rgba(254, 148, 0, 0.713), rgba(255, 150, 3, 0.725)), url("https://www.areatecnologia.com/informatica/imagenes/que-es-ciberseguridad.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -204,7 +220,8 @@ margin-bottom: 100px;
     color: #ffffff;
     font-weight: bold;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 5px;
+    padding-bottom: 0px;
     font-size: 50px;
     margin-bottom: 20px;
 }
@@ -215,8 +232,16 @@ margin-bottom: 100px;
     padding-top: 10px;
     line-height: 25px;
     padding-left: 50px;
+    padding-right: 50px;
 }
-
+.section3 .card-2 a{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+    border-radius: 10px;
+}
 /*carta 3*/
 
 .section3 .card-3{
@@ -226,9 +251,9 @@ margin-bottom: 100px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     transition: all 0.25s;
-    background-image: linear-gradient(0deg, rgba(255, 0, 230, 0.706), rgba(254, 0, 246, 0.678), rgba(255, 3, 247, 0.695)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-image: linear-gradient(0deg, rgba(255, 0, 230, 0.706), rgba(254, 0, 246, 0.678), rgba(255, 3, 247, 0.695)), url("https://bunkerdb.com/blog/wp-content/uploads/2020/10/Fotos-con-celular.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -240,14 +265,20 @@ margin-bottom: 100px;
 .section3 .card-3 h2{
     color: #ffffff;
     font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
 
 }
 
 .section3 .card-3 p{
     color: #ffffff;
     font-size: 15px;
-    padding: 15px;
+    padding-top: 15px;
     line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /*carta 4*/
@@ -259,9 +290,9 @@ margin-bottom: 100px;
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 20px;
-    text-align: center;
+    text-align: start;
     transition: all 0.25s;
-    background-image: linear-gradient(0deg, rgba(0, 255, 21, 0.706), rgba(0, 254, 30, 0.678), rgba(3, 255, 16, 0.695)), url("https://www.comunicare.es/wp-content/uploads/2021/03/1778829c66b7800a38a5c6ec92827c482fc056cb-2.jpeg");
+    background-image: linear-gradient(0deg, rgba(0, 221, 18, 0.759), rgba(0, 223, 26, 0.748), rgba(0, 223, 11, 0.753)), url("https://www.sprachcaffe.com/fileadmin/Redaktion/img/_sprachcaffe/magazine/Magazine_Espanol/estudiar_idiomas_en_el_extranjero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -273,14 +304,19 @@ margin-bottom: 100px;
 .section3 .card-4 h2{
     color: #ffffff;
     font-weight: bold;
-
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
 }
 
 .section3 .card-4 p{
     color: #ffffff;
     font-size: 15px;
-    padding: 15px;
+    padding-top: 10px;
     line-height: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 
@@ -337,11 +373,55 @@ li {
     height: 50px;
 }
 
-@media (max-width: 600px){
-    .image{
-        padding-top: 10px;
-        width: 200px;
-        border-radius: 100px; 
-    
+@media (max-width: 1000px){
+    .encabezado{
+        position: relative;
+    }
+    .encabezado .logo img{
+        height: 50px;
+        width: auto;
+    }
+    .encabezado nav .links li a{
+        font-size: 16px;
+    }
+    .container .image_welcome{
+        background-image: none;
+        background-color: #1f1f1f;
+        text-align: center;
+        height: 400px;
+        width: auto;
+    }
+    .container .image_welcome .welcome{
+        height: 300px;
+        width: auto;
+        padding: 30px 0 0 0;
+        text-align: center;
+    }
+    .container .image_welcome .welcome h3{
+        font-size: 10px;
+        padding: 0 5px 0 5px;
+    }
+    .container .image_welcome .welcome h1{
+        font-size: 40px;
+    }
+    .container .image_welcome .welcome h2{
+        font-size: 20px;
+    }
 }
+
+@media (max-width: 480px){
+    .encabezado{
+    background-color: #000000;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 15px 10%;
+    padding-bottom: 0px;
+    }
+    .encabezado .logo{
+        align-self: center;
+        margin: 0%;
+    }
+
 }
