@@ -642,7 +642,7 @@ li {
     .container .section2 p{
         font-size: 15px;
     }
-    .knowledge{
+    #knowledge{
         font-size: 35px;
     }
     .container .section3 .card-1{
@@ -718,7 +718,7 @@ li {
         font-size: 15px;
     }
 
-    .proyects {
+    #projects {
         font-size: 35px;
     }
     /*Section 4 Card 1*/
