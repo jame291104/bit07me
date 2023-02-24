@@ -165,7 +165,7 @@ margin-bottom: 100px;
     margin: 20px;
     text-align: start;
     transition: all 0.25s;
-    background-image: linear-gradient(0deg, rgba(0, 85, 255, 0.706), rgba(0, 144, 254, 0.678), rgba(3, 121, 255, 0.695)), url("https://www.techies.es/wp-content/uploads/2021/03/desarrollo-web.jpg");
+    background-image:  linear-gradient(0deg, rgba(0, 85, 255, 0.706), rgba(0, 144, 254, 0.678), rgba(3, 121, 255, 0.695)), url("https://www.techies.es/wp-content/uploads/2021/03/desarrollo-web.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -528,11 +528,14 @@ margin-bottom: 100px;
 /*footer*/
 
 .end{
-    background-color: #000000;
+    background-color: #1a1a1a;
     margin: 0;
     padding: 0;
     text-align: center;
-    height: 350px;
+    height: 250px;
+    position: absolute;
+    margin-bottom: 0;
+    width: 100%;
 }
 
 .end .contacto .endImage{
@@ -556,6 +559,7 @@ ul {
     height: 50px;
     display: flex;
     justify-content: center;
+    padding-left: 6px;
 }
   
 li {
